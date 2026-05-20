@@ -1,0 +1,9 @@
+registry
+  env
+    group ip_reputation
+      server ABUSEIPDB_API_KEY: Secret required in production
+
+  bindings
+    ip_reputation: ReputationScorer
+      adapter @plugin/ip-reputation
+      auth keys env.ABUSEIPDB_API_KEY
