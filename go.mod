@@ -57,4 +57,3 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace lazuli.dev/runtime => C:/tmp/laz-w3-ip-reputation/runtime/go
